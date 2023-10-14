@@ -109,6 +109,8 @@
 	path = /obj/item/clothing/shoes/f13/military/plated
 	cost = 2
 
+/// NCR
+
 /datum/gear/shoes/patrol_boots
 	name = "NCR patrol boots"
 	path = /obj/item/clothing/shoes/f13/military/ncr
@@ -131,6 +133,7 @@
 							"NCR Rear Echelon",
 							"NCR Off-Duty"
 						)
+/// Great Khans
 
 /datum/gear/shoes/khan_peltboots
 	name = "Great Khan pelt boots"
@@ -138,4 +141,9 @@
 	cost = 2
 	subcategory = LOADOUT_SUBCATEGORY_SHOES_FACTIONS
 	restricted_desc = "KHAN"
-	restricted_roles = list("Great Khan")
+	restricted_roles = list("Great Khan",
+							"Khan Senior Enforcer",
+							"Khan Enforcer",
+							"Khan Chemist",
+							"Khan Smith"
+						)
